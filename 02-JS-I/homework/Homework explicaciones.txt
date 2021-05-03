@@ -1,0 +1,40 @@
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Variables
+	* Strings
+	* Funciones (argumentos, `return`)
+	* Declaraciones `if`
+	* Valores booleanos (`true`, `false`)
+
+Variables (Var): Cuando yo creo una variable, le estoy diciendo a JavaScript el valor de algo. Ese valor se lo asigno con el =
+Por ejemplo si yo le digo al lenguaje que:
+Var nombrePerro= 'Firulais'
+La consola me va a responder que nombrePerro es Firulais.
+
+Strings: Es una cadena de caracteres. Para definirlas, hay que poner los caracteres entre '' o ""
+Cuando creo una variable, lo que esta despues del =, entre '', es una String
+
+Funciones: Las funciones nos permiten asignarle un valor a diferentes variables (argumentos que van entre parentesis), y, a traves de un código, que colocamos entre {}, le decimos al lenguaje, como lo tiene que ejecutar.
+Por ejemplo para saludar a alguien, creamos la funcion saludar, y le decimos asignamos un argumento, para luego añadirla al código.
+function Saludar (nombre) {
+    console.log ('Hola' + nombre + ', cómo estas?');
+}
+Entonce cuando invoquemos la función Saludar, completando el argumento nombre, vamor a recibir 'Hola Carolina, cómo estas?
+
+Para devolver un valor especifico distinto del predeterminado, una función debe tener una sentencia return, que especifique que valor va a devolver.
+
+Declaraciones ("if"): Nos permiten agregar lógica al código.
+Por ejemplo:
+function puedeManejar(edad) {
+    if (edad > 18) {
+        return true;
+    }
+
+    return false;
+}
+
+puedeManejar(22); // true
+
+Valores boleanos: En Javascript utilizamos los valores boleanos true o false. Nos permite asignarle un valor a cierta variable, o decirle al lenguaje que resultado debe arrojar. Podemos verlo en el ejemplo de arriba (return).
+
+
